@@ -1,0 +1,40 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>WEATHER CHECK</h1><br>
+    </header>
+    <div class ="main">
+        <input type="text" id="city" placeholder="Enter your city"/>
+        <button id="btn" onclick="displayresult()">Submit</button>
+        <div class="midsection">
+            <table class="table">
+                <tr>
+                    <th>City</th>
+                    <th>Temperature</th>
+                    <th>Max Temperature</th>
+                    <th>Min Temperature</th>
+                    <th>Humudity</th>
+                    <th>Pressure</th>
+                </tr>
+                <tr>
+                    <td id="cityname"></td>
+                    <td id="temp">0</td>
+                    <td id="maxtemp">0</td>
+                    <td id="mintemp">0</td>
+                    <td id="hum">0</td>
+                    <td id="pressure">0</td>
+                </tr>
+            </table>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

@@ -5,7 +5,7 @@ body{
 }header{
     font-family:'Montserrat', san-serif;
     display:flex;
-    height:50px;
+    height:64px;
     background-color: darkcyan;
     border-radius: 5px;
     color:aliceblue;
